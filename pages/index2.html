@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Tickets</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+
+      <nav class="sidebar">
+        <div class="logo">
+          <img src="/images/logo.svg" alt="logo" class="logo-icon" />
+          <h1>Dashboard</h1>
+        </div>
+        <nav>
+          <ul>
+             <li class="active-btn">
+            <a href="/pages/index.html">
+              <img
+                src="/images/icon1/icon1/sidebar/sidebar/list/icon/sidebar/inactive/1. overview.svg"
+              />
+              Overview
+            </a>
+          </li>
+
+            <li class="active">
+              <img
+                src="/images/icon2/sidebar/sidebar/list/icon/sidebar/active/2. tickets.svg"
+                class="menu-icon"
+              />
+              Tickets
+            </li>
+
+            <li>
+              <img
+                src="/images/icon3/sidebar/sidebar/list/icon/sidebar/inactive/3. ideas.svg"
+                class="menu-icon"
+              />
+              Ideas
+            </li>
+
+            <li>
+              <img
+                src="/images/icon4/sidebar/sidebar/list/icon/sidebar/inactive/4. contacts.svg"
+                class="menu-icon"
+              />
+              Contacts
+            </li>
+
+            <li>
+              <img
+                src="/images/icon5/sidebar/sidebar/list/icon/sidebar/inactive/5. agents.svg"
+                class="menu-icon"
+              />
+              Agents
+            </li>
+
+            <li>
+              <img
+                src="/images/icon6/sidebar/sidebar/list/icon/sidebar/inactive/6. articles.svg"
+                class="menu-icon"
+              />
+              Articles
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <li>
+            <img src="/images/icon7/sidebar/icon-7.svg" class="menu-icon" />
+            Change mode
+          </li>
+          <li>
+            <img src="/images/icon8/sidebar/icon-8.svg" class="menu-icon" />
+            Logout
+          </li>
+        </div>
+      </nav>
+
+     
+      <main class="main-content">
+        <header>
+          <div class="menu-vector">
+            <img src="/images/menu-icon/header/vector.svg" alt="menu-icon" />
+          </div>
+          <div class="user-info">
+            Jones Ferdinand
+            <img src="/images/profile-avatar1/header/photo.svg" alt="User" />
+          </div>
+        </header>
+
+        <div class="section-header">
+          <h1>Tickets</h1>
+          <div class="actions">
+            <button class="menu-dots">
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+            </button>
+            <button class="add-btn">Add</button>
+          </div>
+        </div>
+
+        <section class="tickets-card">
+          <div class="card-header">
+            <h3>All tickets</h3>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Ticket details</th>
+                <th>Customer name</th>
+                <th>Date</th>
+                <th>Priority</th>
+                <th></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>
+                  <div class="ticket-info">
+                    <img
+                      src="/images/avatar1/table/ticket/avatar/man/5.svg"
+                      class="avatar"
+                    />
+                    <div>
+                      <p class="title">Contact Email not Linked</p>
+                      <p class="subtitle">Updated 1 day ago</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="name">Tom Cruise</div>
+                  <div class="on-date">on 24.05.2019</div>
+                </td>
+                <td>
+                  <div class="date">May 26, 2019</div>
+                  <div class="time">6:30 PM</div>
+                </td>
+                <td><span class="badge high">HIGH</span></td>
+                <td class="options">
+                  <img
+                    src="/images/more-icon/table/ticket/icon/Vector.svg"
+                    alt="more"
+                  />
+                </td>
+              </tr>
+
+              
+              <tr>
+                <td>
+                  <div class="ticket-info">
+                    <img
+                      src="/images/avatar2/table/ticket/avatar/woman/5.svg"
+                      class="avatar"
+                    />
+                    <div>
+                      <p class="title">Adding Images to Featured Posts</p>
+                      <p class="subtitle">Updated 1 day ago</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="name">Matt Damon</div>
+                  <div class="on-date">on 24.05.2019</div>
+                </td>
+                <td>
+                  <div class="date">May 26, 2019</div>
+                  <div class="time">8:00 AM</div>
+                </td>
+                <td><span class="badge low">LOW</span></td>
+                <td class="options">
+                  <img
+                    src="/images/more-icon/table/ticket/icon/Vector.svg"
+                    alt="more"
+                  />
+                </td>
+              </tr>
+
+              
+              <tr>
+                <td>
+                  <div class="ticket-info">
+                    <img
+                      src="/images/avatar3/table/ticket/avatar/woman/3.svg"
+                      class="avatar"
+                    />
+                    <div>
+                      <p class="title">When will I be charged this month?</p>
+                      <p class="subtitle">Updated 1 day ago</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="name">Robert Downey</div>
+                  <div class="on-date">on 24.05.2019</div>
+                </td>
+                <td>
+                  <div class="date">May 26, 2019</div>
+                  <div class="time">7:30 PM</div>
+                </td>
+                <td><span class="badge high">HIGH</span></td>
+                <td class="options">
+                  <img
+                    src="/images/more-icon/table/ticket/icon/Vector.svg"
+                    alt="more"
+                  />
+                </td>
+              </tr>
+
+              
+              <tr>
+                <td>
+                  <div class="ticket-info">
+                    <img
+                      src="/images/avatar4/table/ticket/avatar/man/7.svg"
+                      class="avatar"
+                    />
+                    <div>
+                      <p class="title">Payment not going through</p>
+                      <p class="subtitle">Updated 2 days ago</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="name">Christian Bale</div>
+                  <div class="on-date">on 24.05.2019</div>
+                </td>
+                <td>
+                  <div class="date">May 25, 2019</div>
+                  <div class="time">5:00 PM</div>
+                </td>
+                <td><span class="badge normal">NORMAL</span></td>
+                <td class="options">
+                  <img
+                    src="/images/more-icon/table/ticket/icon/Vector.svg"
+                    alt="more"
+                  />
+                </td>
+              </tr>
+
+              
+              <tr class="highlight-row">
+                <td class="relative-cell">
+                  <div class="ticket-info">
+                    <img
+                      src="/images/avatar5/table/ticket/avatar/man/6.svg"
+                      class="avatar"
+                    />
+                    <div>
+                      <p class="title">Unable to add replies</p>
+                      <p class="subtitle">Updated 2 days ago</p>
+                    </div>
+                  </div>
+
+                  
+                  <img
+                    src="/images/cursor/cursor/table/ticket/icon/cursor/group.svg"
+                    class="floating-cursor"
+                    alt="cursor"
+                  />
+                </td>
+
+                
+                <td>Henry Cavil</td>
+                <td>May 25, 2019</td>
+                <td><span class="badge high">HIGH</span></td>
+                <td class="options">
+                  <img src="/images/more-icon/table/ticket/icon/vector.svg" />
+                </td>
+              </tr>
+
+              
+              <tr>
+                <td>
+                  <div class="ticket-info">
+                    <img
+                      src="/images/avatar6/table/ticket/avatar/man/4.svg"
+                      class="avatar"
+                    />
+                    <div>
+                      <p class="title">Downtime since last week</p>
+                      <p class="subtitle">Updated 3 days ago</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="name">Chris Evans</div>
+                  <div class="on-date">on 24.05.2019</div>
+                </td>
+                <td>
+                  <div class="date">May 25, 2019</div>
+                  <div class="time">2:00 PM</div>
+                </td>
+                <td><span class="badge normal">NORMAL</span></td>
+                <td class="options">
+                  <img
+                    src="/images/more-icon/table/ticket/icon/Vector.svg"
+                    alt="more"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="ticket-info">
+                    <img
+                      src="/images/avatar7/table/ticket/avatar/woman/6.svg"
+                      class="avatar"
+                    />
+                    <div>
+                      <p class="title">Referral Bonus</p>
+                      <p class="subtitle">Updated 4 day ago</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="name">Sam Smith</div>
+                  <div class="on-date">on 22.05.2019</div>
+                </td>
+                <td>
+                  <div class="date">May 25, 2019</div>
+                  <div class="time">11:30 AM</div>
+                </td>
+                <td><span class="badge low">LOW</span></td>
+                <td class="options">
+                  <img
+                    src="/images/more-icon/table/ticket/icon/Vector.svg"
+                    alt="more"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="ticket-info">
+                    <img
+                      src="/images/avatar8/table/ticket/avatar/woman/7.svg"
+                      class="avatar"
+                    />
+                    <div>
+                      <p class="title">How do I change my password?</p>
+                      <p class="subtitle">Updated 6 days ago</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="name">Steve Rogers</div>
+                  <div class="on-date">on 21.05.2019</div>
+                </td>
+                <td>
+                  <div class="date">May 24, 2019</div>
+                  <div class="time">1:00 PM</div>
+                </td>
+                <td><span class="badge normal">NORMAL</span></td>
+                <td class="options">
+                  <img
+                    src="/images/more-icon/table/ticket/icon/Vector.svg"
+                    alt="more"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
